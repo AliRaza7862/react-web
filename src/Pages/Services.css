@@ -1,0 +1,102 @@
+.services-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.services-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-card {
+  width: 45%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.service-card h2 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.service-card.web {
+  background-color: #50c878;
+}
+
+.service-card.app {
+  background-color: #ffa500;
+}
+
+.service-card.web h2 {
+  color: #fff;
+}
+
+.service-card.app h2 {
+  color: #fff;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #ff8c00;
+}
